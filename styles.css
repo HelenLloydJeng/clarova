@@ -28,8 +28,12 @@ body {
   align-items: center;
 }
 .logo {
-  max-height: 50px;
+  height: 100%;
+  max-height: 90px; /* Cap it so it doesn't overflow */
+  width: auto;
+  display: block;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
