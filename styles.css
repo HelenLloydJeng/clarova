@@ -136,62 +136,72 @@ body {
   .hero-text h1 {
     font-size: 2.2rem;
   }
-  .about-hero {
-      background-color: #f1f5f9;
-      padding: 60px 20px;
-      text-align: center;
-    }
+  /* About Page */
 
-    .about-hero h1 {
-      font-size: 2.5rem;
-      color: #1A1F4C;
-    }
+.about-hero {
+  background-color: #f1f5f9;
+  padding: 80px 20px;
+  text-align: center;
+}
 
-    .about-hero p {
-      font-size: 1.2rem;
-      color: #4B5563;
-      max-width: 700px;
-      margin: 0 auto;
-    }
+.about-hero h1 {
+  font-size: 2.8rem;
+  color: #1A1F4C;
+  margin-bottom: 1rem;
+}
 
-    .about-section {
-      background-color: #ffffff;
-      padding: 60px 20px;
-    }
+.about-hero p {
+  font-size: 1.25rem;
+  color: #4B5563;
+  max-width: 700px;
+  margin: 0 auto;
+}
 
-    .about-section h2 {
-      color: #1A1F4C;
-      margin-bottom: 10px;
-    }
+.about-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+}
 
-    .about-section p,
-    .values-list li {
-      color: #4B5563;
-      line-height: 1.6;
-    }
+.about-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
-    .values-list {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 20px;
-    }
+.about-section h2 {
+  color: #1A1F4C;
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+}
 
-    .values-list li {
-      margin-bottom: 10px;
-    }
+.about-section p,
+.values-list li {
+  color: #4B5563;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
 
-    .cta-button {
-      display: inline-block;
-      padding: 0.75rem 1.5rem;
-      background-color: #14B8A6;
-      color: white;
-      font-weight: bold;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 2rem;
-    }
+.values-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
 
-    .cta-button:hover {
-      background-color: #0e9387;
-    }
-  }
+.values-list li {
+  margin-bottom: 12px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #14B8A6;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.cta-button:hover {
+  background-color: #0e9387;
+}
+}
