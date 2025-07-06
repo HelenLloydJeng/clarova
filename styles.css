@@ -4,23 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Brand font and colors (from your brand guidelines) */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', sans-serif;
   line-height: 1.6;
   color: #1A1F4C;
   background-color: #F9FAFB;
 }
 
-/* Navbar */
+* Navbar */
 .navbar {
   background-color: white;
-  height: 90px;
-  padding: 0;
+  padding: 0.5rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  overflow: visible; /* Allow overflow */
+  height: 80px;
 }
 
 .container {
@@ -32,11 +32,9 @@ body {
   align-items: center;
 }
 .logo {
-  height: 70px; /* Match nav height */
+  height: 60px;
   width: auto;
-  transform: scale(1.5); /* Visually enlarge */
-  transform-origin: left center; /* Scale from the left */
-  margin-left: -40px;
+  display: block;
 }
 .nav-links {
   list-style: none;
