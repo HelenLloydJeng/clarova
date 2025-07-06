@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9fafb;
+    color: #1a1f4c;
+}
+header {
+    background: #1ca7a7;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+.hero {
+    padding: 2rem;
+    text-align: center;
+}
+.cta-button {
+    background-color: #1ca7a7;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.details {
+    padding: 2rem;
+    background: white;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #e5e7eb;
+}
