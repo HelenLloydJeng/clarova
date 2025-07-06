@@ -14,7 +14,7 @@ body {
 /* Navbar */
 .navbar {
   background-color: white;
-  height: 80px;
+  height: 90px;
   padding: 0;
   position: sticky;
   top: 0;
@@ -32,7 +32,7 @@ body {
   align-items: center;
 }
 .logo {
-  height: 80px; /* Match nav height */
+  height: 70px; /* Match nav height */
   width: auto;
   transform: scale(1.5); /* Visually enlarge */
   transform-origin: left center; /* Scale from the left */
