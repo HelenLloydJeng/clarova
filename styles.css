@@ -365,7 +365,9 @@ body {
 .contact-form .cta-button:hover {
   background-color: #0e9387;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 /* ====== Responsive Design ====== */
 
