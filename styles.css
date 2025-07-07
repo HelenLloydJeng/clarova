@@ -311,27 +311,106 @@ body {
   border-top: 1px solid #e5e7eb;
 }
 
-/* Responsive */
+/* ====== Responsive Design ====== */
+
+/* Medium screens (Tablets, 768px and down) */
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
   .nav-links {
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
+    margin-top: 1rem;
   }
+
+  .logo {
+    height: 80px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .hero-content {
+    margin: 0;
+    padding: 0;
+    max-width: 90%;
+  }
+
   .hero h1 {
     font-size: 2rem;
   }
-}
-@media (max-width: 768px) {
-  .hero-grid {
+
+  .hero p,
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .offer-box {
+    position: static;
+    max-width: 90%;
+    margin: 2rem auto;
+    box-shadow: none;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-highlights,
+  .about-approach,
+  .about-section {
+    padding: 2rem 1rem;
+  }
+
+  .highlights-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .highlight {
+    padding: 1.5rem;
+  }
+
+  .cta-button,
+  .cta-button-alt {
+    width: 100%;
     text-align: center;
   }
+}
 
-  .hero-image {
-    margin-top: 2rem;
+/* Small screens (Mobile, 480px and down) */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.95rem;
   }
 
-  .hero-text h1 {
-    font-size: 2.2rem;
+  .hero h1,
+  .about-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .highlight h2,
+  .about-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .cta-button,
+  .cta-button-alt {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
   }
 }
+
