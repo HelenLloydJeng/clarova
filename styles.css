@@ -165,61 +165,48 @@ body {
   color: #6B7280;
   margin-top: 1rem;
 }
-
-
-/* === ABOUT PAGE STYLING === */
-
-.about-hero {
-  background-color: #f1f5f9;
-  padding: 100px 20px 60px;
-  text-align: center;
-}
-
-.about-hero h1 {
-  font-size: 3rem;
-  color: #1A1F4C;
-  margin-bottom: 1rem;
-}
-
-.about-hero p {
-  font-size: 1.25rem;
-  color: #4B5563;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
+/* Shared styling for all about page boxes */
+.about-section,
+.about-approach,
 .about-highlights {
   background-color: #ffffff;
   padding: 80px 20px;
 }
 
-.highlights-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+.about-section .container,
+.about-approach .container,
+.about-highlights .container {
   max-width: 1000px;
   margin: 0 auto;
 }
 
+/* Standardised highlight box */
 .highlight {
   background-color: #f9fafb;
   padding: 2rem;
   border-left: 6px solid #14B8A6;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  margin-bottom: 2rem;
 }
 
 .highlight h2 {
   color: #1A1F4C;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
-  font-size: 1.6rem;
 }
 
 .highlight p,
-.values-list {
+.highlight ul,
+.highlight li {
   color: #4B5563;
   font-size: 1.05rem;
   line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.highlight ul {
+  padding-left: 1.2rem;
 }
 
 .values-list {
@@ -232,8 +219,6 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 0.5rem;
-  margin-bottom: 1rem;
-  line-height: 1.6;
 }
 
 .values-list li::before {
@@ -244,63 +229,8 @@ body {
   line-height: 1;
 }
 
-.about-approach {
-  background-color: #ffffff;
-  padding: 80px 20px;
-}
 
-.about-approach ul {
-  margin-top: 1rem;
-  padding-left: 1.2rem;
-  color: #4B5563;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
 
-.about-section {
-  background-color: #ffffff;
-  padding: 80px 20px;
-}
-
-.about-section .container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.about-section h2 {
-  color: #1A1F4C;
-  font-size: 2rem;
-  margin: 2rem 0 1rem;
-}
-
-.about-section p {
-  color: #4B5563;
-  font-size: 1.05rem;
-  line-height: 1.8;
-}
-
-.about-section em {
-  display: block;
-  font-style: italic;
-  color: #1A1F4C;
-  margin-top: 1rem;
-  font-weight: 500;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #14B8A6;
-  color: white;
-  font-weight: bold;
-  border-radius: 6px;
-  text-decoration: none;
-  margin-top: 2rem;
-}
-
-.cta-button:hover {
-  background-color: #0e9387;
-}
 
 /* Footer */
 .footer {
@@ -380,6 +310,7 @@ html {
   }
    .logo {
     height: 80px; /* adjust this if needed */
+  }
 
   .nav-links {
     flex-direction: column;
