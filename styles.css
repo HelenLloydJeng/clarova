@@ -99,6 +99,8 @@ body {
   font-weight: bold;
   border-radius: 6px;
   text-decoration: none;
+    margin-top: 20px;   /* space above */
+  margin-bottom: 24px; /* space below */
 }
 .cta-button:hover {
   background-color: #0e9387;
