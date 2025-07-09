@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Training | Clarova</title>
+  <title>Contact | Clarova</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -21,10 +21,24 @@
     </div>
   </nav>
 
-  <section class="about-hero">
-    <div class="about-hero-content">
-      <h1>Training Page</h1>
-      <p>This section is currently in development. Please check back soon for updates on our strategic AI training for public sector teams.</p>
+  <section class="about-section">
+    <div class="container highlight">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/mrbkwepz" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="organisation">Organisation</label>
+        <input type="text" name="organisation" id="organisation" />
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="4"></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
     </div>
   </section>
 
