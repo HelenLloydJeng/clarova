@@ -231,6 +231,94 @@ body {
   line-height: 1;
 }
 
+/* Training Page Styles */
+
+.about-hero {
+  background-color: #F1F5F9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-hero h1 {
+  font-size: 2.4rem;
+  color: #1A1F4C;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.15rem;
+  color: #4B5563;
+  line-height: 1.7;
+}
+
+/* Main content block styling for training sections */
+.page-content.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.page-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1A1F4C;
+}
+
+.page-content p {
+  font-size: 1.05rem;
+  color: #4B5563;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.page-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.page-content ul li {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* CTA button override for consistent sizing */
+.cta-button.small {
+  padding: 0.7rem 1.3rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+/* Training content layout fix */
+.page-content.container {
+  column-count: unset;
+  column-gap: unset;
+  display: block;
+}
+
+/* Ensure consistent vertical flow for all children */
+.page-content p,
+.page-content ul,
+.page-content li {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  column-break-inside: avoid;
+}
+
+/* Optional: tighten layout for readability */
+.page-content p {
+  margin-bottom: 1.2rem;
+}
+
+.page-content ul {
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
 
 
 
